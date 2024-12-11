@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Stunning Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Aman Rozak</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="slide">
+          <div class="hero-content">
+            <h1>Welcome to My Personal Website</h1>
+            <p>You can learn about programmer here.</p>
+            <a href="#projects" class="cta-button">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              I'm a passionate web developer and designer with a keen eye for
+              detail and a love for creating beautiful, functional websites.
+              With expertise in HTML, CSS, and JavaScript, I bring ideas to life
+              in the digital realm.
+            </p>
+            <div class="skills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Laravel</span>
+              <span>React Js</span>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="images/about.jpg?height=400&width=400" alt="John Doe" />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="images/about.jpg?height=300&width=500" alt="Project 1" />
+            <div class="project-info">
+              <h3>Project 1</h3>
+              <p>
+                A stunning e-commerce website with a focus on user experience
+                and conversion optimization.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/about.jpg?height=300&width=500" alt="Project 2" />
+            <div class="project-info">
+              <h3>Project 2</h3>
+              <p>
+                An innovative web application that leverages the latest in
+                front-end technologies.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/about.jpg?height=300&width=500" alt="Project 3" />
+            <div class="project-info">
+              <h3>Project 3</h3>
+              <p>
+                A responsive portfolio website showcasing creative works and
+                photography.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/aman-natur-rozak/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Amanrozak" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>&copy; 2024 Aman Rozak. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
